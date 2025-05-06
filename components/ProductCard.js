@@ -38,7 +38,9 @@
 
 
 import { useDispatch } from 'react-redux';
-import { addToCart, toggleCart } from '@/redux/productSlice';
+// import { addToCart, toggleCart } from '@/redux/productSlice';.
+import { addToCart, toggleCart } from '@/redux/cartSlice';
+
 
 export default function ProductCard({ product }) {
   const dispatch = useDispatch();
@@ -63,6 +65,9 @@ export default function ProductCard({ product }) {
     </div>
   );
 }
+
+
+
 
 
 

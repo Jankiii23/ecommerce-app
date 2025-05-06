@@ -37,7 +37,7 @@ import '@/styles/globals.css';
 import { Provider } from 'react-redux';
 import store from '@/redux/store';
 import CartSidebar from '@/components/CartSidebar';
-import Navbar from '@/components/Navbar'; // optional
+import Navbar from '@/components/Navbar'; 
 
 function MyApp({ Component, pageProps }) {
   return (

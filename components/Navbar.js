@@ -1,6 +1,7 @@
 
 import { useDispatch } from 'react-redux';
-import { toggleCart } from '@/redux/productSlice';
+// import { toggleCart } from '@/redux/productSlice';
+import { toggleCart } from '@/redux/cartSlice'; 
 
 export default function Navbar() {
   const dispatch = useDispatch();
