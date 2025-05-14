@@ -43,6 +43,7 @@ import {
   toggleCart
 } from '@/redux/cartSlice';
 
+
 export default function CartSidebar() {
   const dispatch = useDispatch();
   const { cartItems, isCartOpen } = useSelector(state => state.cart);
@@ -59,6 +60,7 @@ export default function CartSidebar() {
           <div
             key={item.id}
             className="flex items-center justify-between mb-4 border-b pb-2"
+            
           >
             <div>
               <h3 className="font-semibold">{item.title}</h3>

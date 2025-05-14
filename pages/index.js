@@ -80,6 +80,7 @@ import ProductCard from '@/components/ProductCard';
           <option key={cat} value={cat}>
             {cat}
           </option>
+          
         ))}
       </select>
       <input 
